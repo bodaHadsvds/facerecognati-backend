@@ -49,7 +49,7 @@ app.post("/signin" ,(req,res  )=>{signin.handelsignin(req,res ,db,bcrypt )} )
 
 
     
-app.listen(80, ()=>{
+app.listen(process.env.PORT, ()=>{
     console.log(`app is running on port 3000 ${process.env.PORT}`)
 })
 
