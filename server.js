@@ -39,13 +39,13 @@ app.get("/" , (req,res )=>{
  res.send('success')
 })
 
-app.post("/signin" ,(req,res  )=>{signin.handelsignin(req,res ,db,bcrypt )} )
+// app.post("/signin" ,(req,res  )=>{signin.handelsignin(req,res ,db,bcrypt )} )
 
 
-   app.post("/register", (req,res) => {register.handelRegiser(req,res,bcrypt,db) })
-   app.get('/profile/:id', (req, res) =>{ profile.handelprofileGet(req ,res , db ) });
+//    app.post("/register", (req,res) => {register.handelRegiser(req,res,bcrypt,db) })
+//    app.get('/profile/:id', (req, res) =>{ profile.handelprofileGet(req ,res , db ) });
 
-    app.put("/image", (req,res)=>{ image.handelimage(req,res,db)})
+//     app.put("/image", (req,res)=>{ image.handelimage(req,res,db)})
 
 
     
