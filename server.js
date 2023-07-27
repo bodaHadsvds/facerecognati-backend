@@ -49,8 +49,8 @@ app.post("/signin" ,(req,res  )=>{signin.handelsignin(req,res ,db,bcrypt )} )
 
 
     
-let server = app.listen( process.env.PORT, ()=>{
-    console.log(`app is running on port 3000 ${process.env.PORT}`)
+let server = app.listen( 3000, ()=>{
+    console.log("app is running on port 3000" )
 })
 
 server.on('error', async (error) => {
