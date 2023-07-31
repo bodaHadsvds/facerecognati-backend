@@ -53,6 +53,6 @@ app.post("/signin" ,(req,res  )=>{signin.handelsignin(req,res ,db,bcrypt )} )
     console.log("app is running on port 3000" )
 })
 
-server.on('error', async (error) => {
-  console.log(error.code)
-})
+// server.on('error', async (error) => {
+//   console.log(error.code)
+// })
