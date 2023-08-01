@@ -10,7 +10,7 @@ services:
     plan: standard
     repo: https://github.com/render-oss/docker-pgbouncer
     envVars:
-      - key: DATABASE_URL
+      - key: postgres://test_database_postgres:RVkKuzbuQ7DVVnIUTxtDF2IvfOAM9emK@dpg-cj3mbtt9aq0e0q0078o0-a/test_database_jyxi
         fromDatabase:
           name: test_database_jyxi
           property: connectionString
