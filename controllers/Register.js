@@ -33,7 +33,8 @@ if(!email ||!name ||!password){
  
 
  })
-.catch(err=> res.status(400).json("unable to register"))
+.catch(err=>{   console.log(err) 
+  return res.status(400).json("unable to register")})
    }
 
    module.exports = {
