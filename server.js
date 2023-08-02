@@ -20,7 +20,8 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
     user : 'test_database_postgres',
     port: 5432,
     password : 'RVkKuzbuQ7DVVnIUTxtDF2IvfOAM9emK',
-    database : 'test_database_jyxi'
+    database : 'test_database_jyxi',
+    ssl:true
   }
 });
 
